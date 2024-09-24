@@ -1,0 +1,50 @@
+{
+  "name": "oms-backend",
+  "version": "1.0.0",
+  "description": "a opinion management system, to revise the express library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [
+    "OMS",
+    "Opinion Management System",
+    "Express",
+    "Node.js",
+    "MongoDB",
+    "Mongoose",
+    "RESTful API",
+    "CRUD",
+    "opinion",
+    "management",
+    "system",
+    "feedback",
+    "review",
+    "customer",
+    "support",
+    "service"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasun-chakraborty/OMS-Backend.git"
+  },
+  "author": "Prasun Chakraborty",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "@types/validator": "^13.12.2",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
